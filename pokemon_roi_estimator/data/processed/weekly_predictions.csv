@@ -1,0 +1,6 @@
+card_name,current_price,predicted_price,expected_roi
+Charizard V,120.0,140.0,0.1667
+Pikachu Holo,35.0,37.5,0.0714
+Blastoise EX,55.0,60.0,0.0909
+Eevee Promo,22.0,25.0,0.1364
+Mewtwo GX,65.0,72.0,0.1077

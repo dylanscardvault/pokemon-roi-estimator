@@ -31,6 +31,6 @@ roi_threshold = st.slider("Filter cards with ROI greater than:", min_value=0, ma
 filtered_df = df[df['expected_roi'] * 100 > roi_threshold]
 
 st.subheader(f"🔍 Cards with ROI > {roi_threshold}%")
-st.table(filtered_df[['card_name', 'current_price', 'predicted_price', 'expected_roi']].sort_values('expected_roi', ascending=False))
+st.table(filtered_df[['card_name', 'current_price', 'expected_roi']].sort_values('expected_roi', ascending=False))
 
 st.caption("© Dylan's Auto ROI System")

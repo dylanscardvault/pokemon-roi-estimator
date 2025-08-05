@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load latest predictions
-df = pd.read_csv('data/processed/weekly_predictions.csv')
+df = pd.read_csv('weekly_predictions.csv')
 
 st.set_page_config(page_title="Pokemon ROI Dashboard", layout="wide")
 
